@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MFashion/static/css/main.5f361e03.chunk.css",
+    "main.js": "/MFashion/static/js/main.68a28959.chunk.js",
+    "main.js.map": "/MFashion/static/js/main.68a28959.chunk.js.map",
+    "runtime-main.js": "/MFashion/static/js/runtime-main.03ce4859.js",
+    "runtime-main.js.map": "/MFashion/static/js/runtime-main.03ce4859.js.map",
+    "static/js/2.df5f2013.chunk.js": "/MFashion/static/js/2.df5f2013.chunk.js",
+    "static/js/2.df5f2013.chunk.js.map": "/MFashion/static/js/2.df5f2013.chunk.js.map",
+    "index.html": "/MFashion/index.html",
+    "precache-manifest.c2dfa0f0e3cd02553287708c097438b7.js": "/MFashion/precache-manifest.c2dfa0f0e3cd02553287708c097438b7.js",
+    "service-worker.js": "/MFashion/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/MFashion/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.df5f2013.chunk.js.LICENSE.txt": "/MFashion/static/js/2.df5f2013.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03ce4859.js",
+    "static/js/2.df5f2013.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.68a28959.chunk.js"
+  ]
+}
