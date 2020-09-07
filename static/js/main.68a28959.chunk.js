@@ -1,2 +1,0 @@
-(this["webpackJsonpm-fashion"]=this["webpackJsonpm-fashion"]||[]).push([[0],[,,,function(e,n,t){e.exports=t(10)},,,,,function(e,n,t){},function(e,n,t){},function(e,n,t){"use strict";t.r(n);var a=t(0),c=t.n(a),o=t(2),r=t.n(o);t(8),t(9);var i=function(){return c.a.createElement("div",{className:"App"},c.a.createElement("h1",null,"yo"))};r.a.render(c.a.createElement(c.a.StrictMode,null,c.a.createElement(i,null)),document.getElementById("root"))}],[[3,1,2]]]);
-//# sourceMappingURL=main.68a28959.chunk.js.map

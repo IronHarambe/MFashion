@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13745b0c1b286e55ca29e13914276669",
+    "revision": "b0fcda5b1536d329b2fb39731d72ad31",
     "url": "/MFashion/index.html"
   },
   {
-    "revision": "09435b387c290d530c4b",
+    "revision": "dd967659801d52ebc002",
     "url": "/MFashion/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MFashion/static/js/2.df5f2013.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "09435b387c290d530c4b",
-    "url": "/MFashion/static/js/main.68a28959.chunk.js"
+    "revision": "dd967659801d52ebc002",
+    "url": "/MFashion/static/js/main.32dfa191.chunk.js"
   },
   {
     "revision": "b8ec1e74285542e40ad1",
