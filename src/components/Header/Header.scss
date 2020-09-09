@@ -1,0 +1,19 @@
+.logo {
+  color: white !important;
+  font-size: 25px !important;
+  letter-spacing: 2px !important;
+
+  &:hover {
+    color: blue !important;
+  }
+}
+
+.sign__btn {
+  margin: 0 10px !important;
+}
+
+@media (max-width: 991px) {
+  .logo {
+    color: blue !important;
+  }
+}

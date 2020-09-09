@@ -1,0 +1,13 @@
+.hero {
+  height: 80vh;
+  background: url("../../../images/home.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+  .hero__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+  }
+}
