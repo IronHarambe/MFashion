@@ -7,7 +7,6 @@ function Home() {
   return (
     <div className="home">
       <Hero></Hero>
-
       <Category></Category>
     </div>
   );

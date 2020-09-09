@@ -8,6 +8,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 300px;
+    padding-top: 260px;
+    color: brown;
+  }
+
+  .hero__title {
+    font-size: 5.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .hero__desc {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
   }
 }

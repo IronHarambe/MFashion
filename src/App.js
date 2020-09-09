@@ -5,6 +5,7 @@ import "./App.scss";
 import Home from "./pages/home/Home";
 import Shop from "./pages/shop/Shop";
 import Header from "./components/Header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -14,10 +15,12 @@ function App() {
           <Route path="/shop">
             <Header></Header>
             <Shop></Shop>
+            <Footer></Footer>
           </Route>
           <Route path="/">
             <Header></Header>
             <Home></Home>
+            <Footer></Footer>
           </Route>
         </Switch>
       </div>
