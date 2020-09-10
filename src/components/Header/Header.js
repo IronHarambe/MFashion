@@ -34,11 +34,11 @@ function Header() {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link as={NavLink} to="/">
+            <Nav.Link as={NavLink} to="/contact">
               Contact
             </Nav.Link>
 
-            <Nav.Link as={NavLink} to="/shop">
+            <Nav.Link as={NavLink} to="/checkout">
               <ShoppingBasketIcon></ShoppingBasketIcon>
             </Nav.Link>
             <Navbar.Text>0</Navbar.Text>
@@ -46,9 +46,11 @@ function Header() {
           <Nav>
             <Nav.Link>
               {/* <Navbar.Text>Hello! </Navbar.Text> */}
-              <Button variant="danger" className="sign__btn">
-                Sign-In
-              </Button>
+              <Nav.Link as={NavLink} to="/sign">
+                <Button variant="danger" className="sign__btn">
+                  Sign-In
+                </Button>
+              </Nav.Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

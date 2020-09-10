@@ -1,8 +1,9 @@
 import React from "react";
 import "./Category.scss";
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
+import Oil from "../../shop-components/shop-pages/oil/Oil";
 
-function Category() {
+const Category = ({ match }) => {
   return (
     <div className="category">
       <div className="category__collections">
@@ -32,6 +33,6 @@ function Category() {
       </div>
     </div>
   );
-}
+};
 
 export default Category;
