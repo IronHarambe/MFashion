@@ -9,7 +9,7 @@ function ShopNav() {
       {/*  */}
       <Nav
         defaultActiveKey="/home"
-        className="flex-sm-column"
+        className="flex-sm-column "
         bg="primary"
         variant="dark"
       >

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Shop.scss";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ShopBanner from "../../components/shop-components/shop-banner/ShopBanner";
 import ShopNav from "../../components/shop-components/shop-nav/ShopNav";
 import Paint from "../../components/shop-components/shop-pages/paint/Paint";

@@ -1,0 +1,12 @@
+.paint {
+  height: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 690px) {
+  .paint {
+    justify-content: center;
+  }
+}
