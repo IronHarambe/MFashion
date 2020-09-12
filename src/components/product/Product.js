@@ -1,5 +1,6 @@
 import React from "react";
 import "./Product.scss";
+import { Button } from "@material-ui/core";
 
 function Product({ id, title, image, price, amount, artist }) {
   return (
@@ -8,11 +9,13 @@ function Product({ id, title, image, price, amount, artist }) {
         <img src={image} alt="" />
         <div className="product__content">
           <div className="product__info">
-            <p>{title}</p>
-            <p>${price}</p>
+            <h5>{title}</h5>
+            <strong>${price}</strong>
             <p>{artist}</p>
           </div>
-          <button>Add to cart</button>
+          <Button className="btn" variant="outlined" color="primary">
+            ADD TO CART
+          </Button>
         </div>
       </div>
     </div>

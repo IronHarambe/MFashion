@@ -1,10 +1,33 @@
 .product {
   .product__container {
-    background: yellow;
-    margin: 1em;
+    margin: 0.9em;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px black;
+
+    img {
+      margin: 0.5em;
+      min-width: 150px;
+    }
 
     .product__content {
       padding: 1em;
+
+      .product__info {
+        width: 100%;
+        h5 {
+          font-weight: 600;
+          font-size: 1em;
+        }
+
+        strong {
+          font-weight: 900;
+          font-size: 1.5em;
+        }
+
+        p {
+          font-weight: 300;
+        }
+      }
     }
   }
 }

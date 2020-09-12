@@ -1,0 +1,7 @@
+.abstract {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  width: 80vw;
+  margin: 0 auto;
+}

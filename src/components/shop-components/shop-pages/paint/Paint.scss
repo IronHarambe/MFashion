@@ -1,12 +1,13 @@
 .paint {
-  height: auto;
+  // Make the items responsive with flexbox
+  // height: auto;
+  // display: flex;
+  // justify-content: center;
+  // flex-wrap: wrap;
 
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media (max-width: 690px) {
-  .paint {
-    justify-content: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  width: 80vw;
+  margin: 0 auto;
 }

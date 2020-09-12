@@ -31,7 +31,7 @@ function Paint() {
         amount="0"
         price="800"
         artist="Leonardo V Darcia"
-        image="https://i.ibb.co/zXpB0wx/painting2.jpg"
+        image="https://i.ibb.co/x7RpX3W/painting.jpg"
       ></Product>
 
       <Product
@@ -41,7 +41,7 @@ function Paint() {
         amount="0"
         price="800"
         artist="Leonardo V Darcia"
-        image="https://i.ibb.co/zXpB0wx/painting2.jpg"
+        image="https://i.ibb.co/x7RpX3W/painting.jpg"
       ></Product>
 
       <Product
