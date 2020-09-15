@@ -1,0 +1,27 @@
+import React from "react";
+import { useStaeValue } from "../../../components/context-api/StateProvider";
+import "./CheckoutProduct.scss";
+
+function CheckoutProduct({ id, title, price, image }) {
+  const [{ basket }, dispatch] = useStaeValue();
+
+  const removeFromBasket = () => {
+    dispatch({
+      type: "REMOVE_FROM_BASKET",
+      id: id,
+    });
+  };
+  return (
+    <div className="checkout__product">
+      <img src={image} alt="" />
+      <div className="checkout__content">
+        <h4>{title}</h4>
+        <strong>${price}</strong>
+      </div>
+
+      <button onClick={removeFromBasket}>Remove From Basket</button>
+    </div>
+  );
+}
+
+export default CheckoutProduct;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Category.scss";
-import { Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Oil from "../../shop-components/shop-pages/oil/Oil";
 
 const Category = ({ match }) => {

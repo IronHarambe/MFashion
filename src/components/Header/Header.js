@@ -4,8 +4,11 @@ import { NavLink, Route, Link } from "react-router-dom";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 import "./Header.scss";
+import { useStaeValue } from "../context-api/StateProvider";
 
 function Header() {
+  const [{ basket }, dipatch] = useStaeValue();
+
   return (
     <div className="header">
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
@@ -41,7 +44,8 @@ function Header() {
             <Nav.Link as={NavLink} to="/checkout">
               <ShoppingBasketIcon></ShoppingBasketIcon>
             </Nav.Link>
-            <Navbar.Text>0</Navbar.Text>
+            {/* The amount of items in the basket */}
+            <Navbar.Text>{basket?.length}</Navbar.Text>
           </Nav>
           <Nav>
             <Nav.Link>

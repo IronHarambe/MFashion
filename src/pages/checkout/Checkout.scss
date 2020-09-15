@@ -1,0 +1,13 @@
+.checkout {
+  min-height: 100vh;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 585px) {
+  .checkout {
+    flex-direction: column;
+  }
+}
