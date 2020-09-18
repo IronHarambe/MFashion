@@ -40,8 +40,8 @@ function Header() {
               <NavDropdown.Item as={NavLink} to="/shop">
                 Minimal
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/shop">
-                Digital
+              <NavDropdown.Item as={NavLink} to="/oil">
+                Oil
               </NavDropdown.Item>
             </NavDropdown>
 

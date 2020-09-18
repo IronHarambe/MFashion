@@ -26,7 +26,7 @@ function App() {
           user: authUser,
         });
       } else {
-        // User is logged out, set user to null
+        // User is logged out, set user to n
         dispatch({
           type: "SET_USER",
           user: null,
@@ -54,6 +54,7 @@ function App() {
             <Sign></Sign>
             <Footer></Footer>
           </Route>
+
           <Route path="/checkout">
             <Header></Header>
             <Checkout></Checkout>

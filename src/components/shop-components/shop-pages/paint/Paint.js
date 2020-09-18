@@ -14,7 +14,7 @@ function Paint() {
           description="An secondary artpiece inspired from roman influences"
           price={200}
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/zXpB0wx/painting2.jpg"
+          image="https://i.ibb.co/9tcdfYg/painting.jpg"
         ></Product>
         <Product
           id="2"
@@ -31,7 +31,7 @@ function Paint() {
           description="An secondary artpiece inspired from roman influences"
           price={250}
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/x7RpX3W/painting.jpg"
+          image="https://i.ibb.co/tsMF2DH/painting3.jpg"
         ></Product>
 
         <Product
@@ -40,7 +40,7 @@ function Paint() {
           description="An secondary artpiece inspired from roman influences"
           price={120}
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/x7RpX3W/painting.jpg"
+          image="https://i.ibb.co/mSFqF8f/painting4.jpg"
         ></Product>
 
         <Product
@@ -49,7 +49,7 @@ function Paint() {
           description="An secondary artpiece inspired from roman influences"
           price={250}
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/zXpB0wx/painting2.jpg"
+          image="https://i.ibb.co/BVtd85p/painting5.jpg"
         ></Product>
 
         <Product
@@ -58,7 +58,7 @@ function Paint() {
           description="An secondary artpiece inspired from roman influences"
           price={250}
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/zXpB0wx/painting2.jpg"
+          image="https://i.ibb.co/VWhR1wt/painting6.jpg"
         ></Product>
 
         <Product
@@ -67,7 +67,7 @@ function Paint() {
           description="An secondary artpiece inspired from roman influences"
           price={250}
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/zXpB0wx/painting2.jpg"
+          image="https://i.ibb.co/bFHYmVN/painting7.jpg"
         ></Product>
 
         <Product
@@ -76,7 +76,7 @@ function Paint() {
           description="An secondary artpiece inspired from roman influences"
           price={250}
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/zXpB0wx/painting2.jpg"
+          image="https://i.ibb.co/wpK5MPy/painting8.jpg"
         ></Product>
 
         <Product
@@ -85,7 +85,7 @@ function Paint() {
           description="An secondary artpiece inspired from roman influences"
           price={250}
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/zXpB0wx/painting2.jpg"
+          image="https://i.ibb.co/Pr6vrfN/painting9.jpg"
         ></Product>
 
         <Product
@@ -94,7 +94,7 @@ function Paint() {
           description="An secondary artpiece inspired from roman influences"
           price={250}
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/zXpB0wx/painting2.jpg"
+          image="https://i.ibb.co/3NMS4FY/painting10.jpg"
         ></Product>
       </div>
     </div>

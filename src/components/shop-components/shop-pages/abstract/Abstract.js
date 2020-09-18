@@ -23,7 +23,7 @@ function Abstract() {
           amount="0"
           price="800"
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/4fTpFYk/modern.jpg"
+          image="https://i.ibb.co/QvjgMrd/modern2.jpg"
         ></Product>
         <Product
           id="2"
@@ -32,7 +32,7 @@ function Abstract() {
           amount="0"
           price="800"
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/4fTpFYk/modern.jpg"
+          image="https://i.ibb.co/kydVktX/modern3.jpg"
         ></Product>
         <Product
           id="2"
@@ -41,7 +41,7 @@ function Abstract() {
           amount="0"
           price="800"
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/4fTpFYk/modern.jpg"
+          image="https://i.ibb.co/bmkJ7tz/modern4.jpg"
         ></Product>
         <Product
           id="2"
@@ -50,7 +50,7 @@ function Abstract() {
           amount="0"
           price="800"
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/4fTpFYk/modern.jpg"
+          image="https://i.ibb.co/zJX6WCS/modern5.jpg"
         ></Product>
         <Product
           id="2"
@@ -59,7 +59,7 @@ function Abstract() {
           amount="0"
           price="800"
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/YkG7zHF/modern10.jpg"
+          image="https://i.ibb.co/4NRCTMc/modern6.jpg"
         ></Product>
         <Product
           id="2"
@@ -68,7 +68,7 @@ function Abstract() {
           amount="0"
           price="800"
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/YkG7zHF/modern10.jpg"
+          image="https://i.ibb.co/v4yX7DD/modern7.jpg"
         ></Product>
         <Product
           id="2"
@@ -77,7 +77,7 @@ function Abstract() {
           amount="0"
           price="800"
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/YkG7zHF/modern10.jpg"
+          image="https://i.ibb.co/b74PJBD/modern8.jpg"
         ></Product>
         <Product
           id="2"
@@ -86,7 +86,7 @@ function Abstract() {
           amount="0"
           price="800"
           artist="Leonardo V Darcia"
-          image="https://i.ibb.co/YkG7zHF/modern10.jpg"
+          image="https://i.ibb.co/342nHpv/modern9.jpg"
         ></Product>
         <Product
           id="2"
