@@ -2,7 +2,7 @@
 export const initalState = {
   // Shopping basket (array)
   basket: [],
-  // user: null
+  user: null,
 };
 
 // Get the SubTotal value of the baskets
@@ -17,6 +17,11 @@ const reducer = (state, action) => {
   console.log(action);
   // Diffrent reducers for diffrent actions
   switch (action.type) {
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
+      };
     // ADD's item to the basket
     case "ADD_TO_BASKET":
       return {

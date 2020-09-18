@@ -5,9 +5,17 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 import "./Header.scss";
 import { useStaeValue } from "../context-api/StateProvider";
+import { auth } from "../../pages/Firebase";
 
 function Header() {
-  const [{ basket }, dipatch] = useStaeValue();
+  const [{ basket, user }, dipatch] = useStaeValue();
+
+  // When user presses button, signs them out
+  const handleAuthentication = () => {
+    if (user) {
+      auth.signOut();
+    }
+  };
 
   return (
     <div className="header">
@@ -48,12 +56,16 @@ function Header() {
             <Navbar.Text>{basket?.length}</Navbar.Text>
           </Nav>
           <Nav>
+            <Navbar.Text className="user__name">{user?.email}</Navbar.Text>
             <Nav.Link>
-              {/* <Navbar.Text>Hello! </Navbar.Text> */}
-              <Nav.Link as={NavLink} to="/sign">
-                <Button variant="danger" className="sign__btn">
-                  Sign-In
-                </Button>
+              {/* If there is no user, then redirect to sign in page */}
+              <Nav.Link as={NavLink} to={!user && "/sign"}>
+                <div className="login_info" onClick={handleAuthentication}>
+                  <Button variant="danger" className="sign__btn">
+                    {/* If user exists Sign in else signout */}
+                    {user ? "Sign Out" : "Sign In"}
+                  </Button>
+                </div>
               </Nav.Link>
             </Nav.Link>
           </Nav>
