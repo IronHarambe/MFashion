@@ -2,6 +2,7 @@
   height: 100vh;
   background: url("../../../images/home.jpg") no-repeat center center fixed;
   background-size: cover;
+  opacity: 0.9;
 
   .hero__text {
     display: flex;
@@ -21,5 +22,31 @@
   .hero__desc {
     font-size: 1.3rem;
     letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 694px) {
+  .hero {
+    .hero__title {
+      font-size: 4rem;
+    }
+    .hero__desc {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 562px) {
+  .hero {
+    .hero__text {
+      padding-top: 200px;
+    }
+
+    .hero__title {
+      font-size: 2.8rem;
+    }
+    .hero__desc {
+      font-size: 0.9rem;
+    }
   }
 }

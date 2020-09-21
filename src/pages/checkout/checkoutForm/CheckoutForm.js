@@ -11,9 +11,8 @@ function CheckoutForm() {
   return (
     <div className="checkout__form">
       <h4>Checkout </h4>
-      <p>
-        {basket.length} items: ${getBasketTotal(basket)}
-      </p>
+      <h5>{basket.length} items:</h5>
+      <p>${getBasketTotal(basket)}</p>
       <Button className="btn">Buy Items</Button>
     </div>
   );

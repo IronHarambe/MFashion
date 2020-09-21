@@ -6,7 +6,7 @@ import Home from "./pages/home/Home";
 import Shop from "./pages/shop/Shop";
 import Header from "./components/Header/Header";
 import Footer from "./components/footer/Footer";
-import Contact from "./pages/contact/Contact";
+
 import Sign from "./pages/sign/Sign";
 import Checkout from "./pages/checkout/Checkout";
 import { useStaeValue } from "./components/context-api/StateProvider";
@@ -44,11 +44,7 @@ function App() {
             <Shop></Shop>
             <Footer></Footer>
           </Route>
-          <Route path="/contact">
-            <Header></Header>
-            <Contact></Contact>
-            <Footer></Footer>
-          </Route>
+
           <Route path="/sign">
             <Header></Header>
             <Sign></Sign>

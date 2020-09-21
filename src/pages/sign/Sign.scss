@@ -16,6 +16,26 @@
     .sign__right {
       background-color: brown;
       padding: 70px;
+      color: white;
+
+      h1 {
+        margin-bottom: 70px;
+      }
+
+      .form {
+        input {
+          width: 320px;
+          text-align: center;
+          margin: 4px;
+          padding: 5px;
+        }
+        .sign__button {
+          width: 150px;
+          margin: 5px;
+          background-color: #0093e9;
+          color: white;
+        }
+      }
     }
 
     .sign__left {
@@ -27,21 +47,30 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 744px) {
   .sign {
     align-items: flex-start;
     .sign__container {
       flex-direction: column;
+      margin-top: 150px;
 
       .sign__right {
-        padding: 20px;
+        height: 100%;
+
+        .form {
+          input {
+            width: 200px;
+          }
+
+          .sign__button {
+            width: 100px;
+            margin: 5px;
+          }
+        }
       }
 
       .sign__left {
-        img {
-          height: 60%;
-          box-shadow: none;
-        }
+        display: none;
       }
     }
   }

@@ -1,6 +1,6 @@
 .checkout__product {
   display: flex;
-  padding: 20px;
+  padding: 18px;
   justify-content: space-between;
   align-items: center;
 
@@ -13,6 +13,11 @@
     strong {
       font-size: 2.5em;
     }
+  }
+  .remove__button {
+    padding: 5px;
+    background: rgb(212, 46, 62);
+    color: white;
   }
 }
 

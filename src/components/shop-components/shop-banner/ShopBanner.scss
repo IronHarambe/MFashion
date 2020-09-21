@@ -1,9 +1,13 @@
 .shop__banner {
   height: 200px;
+  opacity: 0.9;
   background: url("../../../images/shop-banner.jpg") no-repeat center;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  h1 {
+    font-size: 3em;
+    color: white;
+  }
 }

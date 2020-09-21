@@ -41,7 +41,7 @@ function Sign() {
       <div className="sign__container">
         <div className="sign__right">
           <h1>Sign In</h1>
-          <form action="#">
+          <form action="#" className="form">
             <h5>Email:</h5>
             <input
               type="email"
@@ -56,12 +56,16 @@ function Sign() {
               value={password}
               onChange={(event) => setPassword(event.target.value)}
             />
-            <Button type="submit" onClick={signIn}>
+            <Button type="submit" onClick={signIn} className="sign__button">
               Login
             </Button>
             <div className="register__section">
               <p>Don't have an account? Register here!</p>
-              <Button type="submit" onClick={register}>
+              <Button
+                type="submit"
+                onClick={register}
+                className="sign__button register__btn"
+              >
                 Register
               </Button>
             </div>

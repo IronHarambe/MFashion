@@ -45,10 +45,6 @@ function Header() {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link as={NavLink} to="/contact">
-              Contact
-            </Nav.Link>
-
             <Nav.Link as={NavLink} to="/checkout">
               <ShoppingBasketIcon></ShoppingBasketIcon>
             </Nav.Link>
