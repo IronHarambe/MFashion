@@ -3,8 +3,8 @@ import { useStaeValue } from "../../../components/context-api/StateProvider";
 import "./CheckoutProduct.scss";
 
 function CheckoutProduct({ id, title, price, image }) {
-  const [ dispatch] = useStaeValue();
-  // const [{ basket }, dispatch] = useStaeValue();
+  const [{ basket }, dispatch] = useStaeValue();
+  
 
   const removeFromBasket = () => {
     dispatch({
