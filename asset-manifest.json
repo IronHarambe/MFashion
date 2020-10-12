@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MFashion/static/css/main.4e4dd39f.chunk.css",
-    "main.js": "/MFashion/static/js/main.efa9fefa.chunk.js",
-    "main.js.map": "/MFashion/static/js/main.efa9fefa.chunk.js.map",
+    "main.js": "/MFashion/static/js/main.9c9fd450.chunk.js",
+    "main.js.map": "/MFashion/static/js/main.9c9fd450.chunk.js.map",
     "runtime-main.js": "/MFashion/static/js/runtime-main.03ce4859.js",
     "runtime-main.js.map": "/MFashion/static/js/runtime-main.03ce4859.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/MFashion/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.e445c953.chunk.js": "/MFashion/static/js/2.e445c953.chunk.js",
     "static/js/2.e445c953.chunk.js.map": "/MFashion/static/js/2.e445c953.chunk.js.map",
     "index.html": "/MFashion/index.html",
-    "precache-manifest.65796461d386f58ec377100a7be09345.js": "/MFashion/precache-manifest.65796461d386f58ec377100a7be09345.js",
+    "precache-manifest.fb27e1ef3d8ecaaa901ab3b413215e41.js": "/MFashion/precache-manifest.fb27e1ef3d8ecaaa901ab3b413215e41.js",
     "service-worker.js": "/MFashion/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/MFashion/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.4e4dd39f.chunk.css.map": "/MFashion/static/css/main.4e4dd39f.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.e445c953.chunk.js",
     "static/css/main.4e4dd39f.chunk.css",
-    "static/js/main.efa9fefa.chunk.js"
+    "static/js/main.9c9fd450.chunk.js"
   ]
 }

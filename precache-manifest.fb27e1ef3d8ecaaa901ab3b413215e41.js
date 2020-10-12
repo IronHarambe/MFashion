@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f05b3bc6ea372323138a0c2fc82ccfb",
+    "revision": "0bb23f2616e670acce42a9bb4df53196",
     "url": "/MFashion/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MFashion/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "debcb51e3fc06bb0926d",
+    "revision": "95f08f6bc3eff5969f87",
     "url": "/MFashion/static/css/main.4e4dd39f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MFashion/static/js/2.e445c953.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "debcb51e3fc06bb0926d",
-    "url": "/MFashion/static/js/main.efa9fefa.chunk.js"
+    "revision": "95f08f6bc3eff5969f87",
+    "url": "/MFashion/static/js/main.9c9fd450.chunk.js"
   },
   {
     "revision": "b8ec1e74285542e40ad1",
