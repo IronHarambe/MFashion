@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/MFashion/static/css/main.5f361e03.chunk.css",
-    "main.js": "/MFashion/static/js/main.32dfa191.chunk.js",
-    "main.js.map": "/MFashion/static/js/main.32dfa191.chunk.js.map",
+    "main.css": "/MFashion/static/css/main.4e4dd39f.chunk.css",
+    "main.js": "/MFashion/static/js/main.efa9fefa.chunk.js",
+    "main.js.map": "/MFashion/static/js/main.efa9fefa.chunk.js.map",
     "runtime-main.js": "/MFashion/static/js/runtime-main.03ce4859.js",
     "runtime-main.js.map": "/MFashion/static/js/runtime-main.03ce4859.js.map",
-    "static/js/2.df5f2013.chunk.js": "/MFashion/static/js/2.df5f2013.chunk.js",
-    "static/js/2.df5f2013.chunk.js.map": "/MFashion/static/js/2.df5f2013.chunk.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/MFashion/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.e445c953.chunk.js": "/MFashion/static/js/2.e445c953.chunk.js",
+    "static/js/2.e445c953.chunk.js.map": "/MFashion/static/js/2.e445c953.chunk.js.map",
     "index.html": "/MFashion/index.html",
-    "precache-manifest.579ba3bf74cb8f7b14d0cbfcd497c1a1.js": "/MFashion/precache-manifest.579ba3bf74cb8f7b14d0cbfcd497c1a1.js",
+    "precache-manifest.65796461d386f58ec377100a7be09345.js": "/MFashion/precache-manifest.65796461d386f58ec377100a7be09345.js",
     "service-worker.js": "/MFashion/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/MFashion/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.df5f2013.chunk.js.LICENSE.txt": "/MFashion/static/js/2.df5f2013.chunk.js.LICENSE.txt"
+    "static/css/2.d9ad5f5c.chunk.css.map": "/MFashion/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.4e4dd39f.chunk.css.map": "/MFashion/static/css/main.4e4dd39f.chunk.css.map",
+    "static/js/2.e445c953.chunk.js.LICENSE.txt": "/MFashion/static/js/2.e445c953.chunk.js.LICENSE.txt",
+    "static/media/Hero.scss": "/MFashion/static/media/home.6553dd94.jpg",
+    "static/media/home3.jpg": "/MFashion/static/media/home3.b2d3a2ff.jpg",
+    "static/media/Category.scss": "/MFashion/static/media/painting8.37b60fc2.jpg",
+    "static/media/ShopBanner.scss": "/MFashion/static/media/shop-banner.a697e151.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.03ce4859.js",
-    "static/js/2.df5f2013.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.32dfa191.chunk.js"
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.e445c953.chunk.js",
+    "static/css/main.4e4dd39f.chunk.css",
+    "static/js/main.efa9fefa.chunk.js"
   ]
 }
