@@ -10,90 +10,90 @@ function Paint() {
       <div className="paint-wrapper">
         <Product
           id="1"
-          title="Heavenly Aspect Reawakening"
+          title="Heavenly  Reawakening"
           description="An secondary artpiece inspired from roman influences"
-          price={200}
+          price={400}
           artist="Leonardo V Darcia"
           image="https://i.ibb.co/9tcdfYg/painting.jpg"
         ></Product>
         <Product
           id="2"
-          title="Heavenly Aspect Reawakening"
+          title="Divine Awakening"
           description="An secondary artpiece inspired from roman influences"
-          price={250}
+          price={400}
           artist="Leonardo V Darcia"
           image="https://i.ibb.co/zXpB0wx/painting2.jpg"
         ></Product>
 
         <Product
           id="3"
-          title="Heavenly Aspect Reawakening"
+          title="Mountainside"
           description="An secondary artpiece inspired from roman influences"
-          price={250}
-          artist="Leonardo V Darcia"
+          price={350}
+          artist="Marcia Timly"
           image="https://i.ibb.co/tsMF2DH/painting3.jpg"
         ></Product>
 
         <Product
           id="4"
-          title="Heavenly Aspect Reawakening"
+          title="Nature's Refuge"
           description="An secondary artpiece inspired from roman influences"
-          price={120}
-          artist="Leonardo V Darcia"
+          price={220}
+          artist="Argus Mathhers"
           image="https://i.ibb.co/mSFqF8f/painting4.jpg"
         ></Product>
 
         <Product
-          id="2"
-          title="Heavenly Aspect Reawakening"
+          id="5"
+          title="Cliffside"
           description="An secondary artpiece inspired from roman influences"
-          price={250}
-          artist="Leonardo V Darcia"
+          price={200}
+          artist="Marcia Timly"
           image="https://i.ibb.co/BVtd85p/painting5.jpg"
         ></Product>
 
         <Product
-          id="2"
-          title="Heavenly Aspect Reawakening"
+          id="6"
+          title="Friendly Birds"
           description="An secondary artpiece inspired from roman influences"
-          price={250}
-          artist="Leonardo V Darcia"
+          price={150}
+          artist="Maria Steff"
           image="https://i.ibb.co/VWhR1wt/painting6.jpg"
         ></Product>
 
         <Product
-          id="2"
-          title="Heavenly Aspect Reawakening"
+          id="7"
+          title="Down the Valley"
           description="An secondary artpiece inspired from roman influences"
-          price={250}
-          artist="Leonardo V Darcia"
+          price={450}
+          artist="Sanders Brandon"
           image="https://i.ibb.co/bFHYmVN/painting7.jpg"
         ></Product>
 
         <Product
-          id="2"
-          title="Heavenly Aspect Reawakening"
+          id="8"
+          title="Village"
           description="An secondary artpiece inspired from roman influences"
           price={250}
-          artist="Leonardo V Darcia"
+          artist="Sanders Brandon"
           image="https://i.ibb.co/wpK5MPy/painting8.jpg"
         ></Product>
 
         <Product
-          id="2"
-          title="Heavenly Aspect Reawakening"
+          id="9"
+          title="Vird Collection"
           description="An secondary artpiece inspired from roman influences"
           price={250}
-          artist="Leonardo V Darcia"
+          artist="Maria Steff"
           image="https://i.ibb.co/Pr6vrfN/painting9.jpg"
         ></Product>
 
         <Product
-          id="2"
-          title="Heavenly Aspect Reawakening"
+          id="10"
+          title="Winter"
           description="An secondary artpiece inspired from roman influences"
-          price={250}
-          artist="Leonardo V Darcia"
+          price={150}
+          artist="Sanders Brandon"
           image="https://i.ibb.co/3NMS4FY/painting10.jpg"
         ></Product>
       </div>
