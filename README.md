@@ -6,11 +6,7 @@ Currently having issues with deployment, to test it out clone repo and try out o
 
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
