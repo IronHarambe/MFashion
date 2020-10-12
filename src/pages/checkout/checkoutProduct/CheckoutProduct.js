@@ -13,6 +13,7 @@ function CheckoutProduct({ id, title, price, image }) {
   };
   return (
     <div className="checkout__product">
+      {/* <h1>{basket.length}</h1> */}
       <img src={image} alt="" />
       <div className="checkout__content">
         <h4>{title}</h4>

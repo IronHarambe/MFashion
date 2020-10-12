@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown, Button } from "react-bootstrap";
-import { NavLink, Route, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 import "./Header.scss";
@@ -8,7 +8,7 @@ import { useStaeValue } from "../context-api/StateProvider";
 import { auth } from "../../pages/Firebase";
 
 function Header() {
-  const [{ basket, user }, dipatch] = useStaeValue();
+  const [{ basket, user }] = useStaeValue();
 
   // When user presses button, signs them out
   const handleAuthentication = () => {
