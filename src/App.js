@@ -16,8 +16,9 @@ function App() {
 
   
 
-  const [{ user }, dispatch] = useStaeValue();
-  
+  // const [{ user }, dispatch] = useStaeValue();
+  const [ dispatch] = useStaeValue();
+ 
 
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
@@ -37,7 +38,8 @@ function App() {
         });
       }
     });
-  }, []);
+  });
+// }, []);
 
   return (
     <Router>
