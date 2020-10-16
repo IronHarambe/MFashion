@@ -1,7 +1,10 @@
-Shopping website created using React and React context API. Website allows you to purchase paintings. 
+A Shopping Website, which allows the purchase of paintings. Created using React and React Context API!
 
-Currently having issues with deployment, to test it out clone repo and try out on local browser, sorry. 
+Website allows to Login, purchase an item and display items in checkout with total price!
 
+Having some trouble atm with hosting the websites, not sure what the problem is, looking to fix it soon! Sorry!
+
+To access the website, clone git folder and use npm start on local editor (vs code)
 
 
 
